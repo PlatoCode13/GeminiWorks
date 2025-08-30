@@ -1,0 +1,10 @@
+[
+  {
+    "text": "# AMM: A320 Hydraulic Low-Pressure Alert (Mock)\n\n## Fault Code\nHYD_023\n\n## Symptoms\n- Low pressure indication on HYD B during taxi.\n\n## Troubleshooting\n1. Verify reservoir level within 45–55%.\n2. Check filter differential pressure indicator.\n3. Inspect pump B for abnormal noise.\n4. If persistent, perform leak check on return manifold.\n\n## Remedy\n- Replace filter if clogged; retest pressure.\n",
+    "source": "mock_arm.md"
+  },
+  {
+    "text": "# SRM: A320 Wing Panel Fastener Replacement (Mock)\n\n## Safety Notes\n- Always disconnect hydraulic pressure before working near flaps.\n\n## Tools\n- Torque wrench: 28–32 Nm for fastener type FZ-28\n- Sealant kit: SK-03\n\n## Steps\n1. Access panel 57-2 using maintenance ladder.\n2. Remove surface sealant around fastener head.\n3. Remove fastener FZ-28 with appropriate bit.\n4. Clean bore; inspect for corrosion (limit: <0.2 mm pitting).\n5. Install new FZ-28; apply 28–32 Nm torque.\n6. Reseal with SK-03; cure for 20 minutes.\n\n## Notes\n- If torque exceeds 32 Nm, check thread damage.\n",
+    "source": "mock_srm.md"
+  }
+]
