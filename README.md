@@ -79,13 +79,14 @@ App opens at http://localhost:8501.
 
 Try it quickly:
 
+```
 Doc Q&A: “What torque range for fastener FZ-28?”
 
 Summarizer: paste a few lines of notes; click Summarize.
 
 Wrangling: upload data/sample_maintenance.csv; click Suggest fixes + code.
 
-
+````
 
 🧪 Demo Notes / Prompts
 
@@ -104,11 +105,14 @@ Deadlines: CSV Fri, how-to Mon, demo Tue
 ````
 Doc Q&A questions:
 
+````
 How do I troubleshoot HYD_023 low pressure?
 
 What’s the safety step before working near flaps?
 
 What to check if torque exceeds limit?
+
+````
 
 🧠 Models, Rate Limits & Reliability
 
@@ -117,6 +121,8 @@ Default model: gemini-1.5-flash for speed + generous free tier.
 You can switch to gemini-1.5-pro per call if you need deeper reasoning.
 
 The app:
+
+````
 
 trims context (MAX_CTX_CHARS)
 
@@ -133,14 +139,18 @@ Lower input size (shorter notes, fewer CSV rows)
 Wait a few seconds between runs
 
 Consider enabling billing or using an additional key for heavy testing
+````
 
 🔒 Safety & Data
+
+````
 
 Uses synthetic SRM/AMM text; do not ingest proprietary docs.
 
 .env and runtime store/ index are excluded from Git via .gitignore.
-
+````
 🛠️ Tech Stack
+````
 
 Streamlit, Pandas
 
@@ -150,5 +160,5 @@ FAISS for vector search (faiss-cpu)
 
 Python-dotenv for secrets
 
-
+````
 
